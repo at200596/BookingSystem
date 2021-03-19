@@ -25,6 +25,7 @@ public class Dates {
                 System.out.println("The two dates do not match");
             }
 
+            //This is how to check if one date is before another
             System.out.println("Is the given date before the second date? " + new Timestamp(time).before(calendar.getTime()));
 
             
